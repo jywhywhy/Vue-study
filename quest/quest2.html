@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>title</title>
+</head>
+<body>
+    <div id="app">
+        <child-component v-bind:propsdata="message"></child-component>
+
+        <!-- 할 일 #3 -->
+        <!-- sibling-component 등록 -->
+        <sibling-component v-bind:propsdata2="anotherMessage"></sibling-component>
+    </div>
+
+    <script src="https://cdn.jsdelivr.net/npm/vue@2.5.2/dist/vue.js"></script>
+    <script src="../js/app2.js"></script>
+</body>
+</html>
